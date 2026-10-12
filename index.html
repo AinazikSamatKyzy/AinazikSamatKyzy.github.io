@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ainazik · MLOps 엔지니어</title>
+<meta name="description" content="Samat kyzy Ainazik — MLOps 엔지니어 (AI 모델 서빙 · Kubernetes · AWS). 이력서와 포트폴리오.">
+<style>
+  :root { --ink:#1b1f24; --muted:#5b6470; --line:#e2e6eb; --accent:#1f4e8c; --tint:#eef3fa; --bg:#f7f8fa; --card:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8ebef; --muted:#9aa4b0; --line:#2c333b; --accent:#7fb0ff; --tint:#1c2736; --bg:#111418; --card:#181c21; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif; line-height:1.55; }
+  main { max-width:640px; margin:0 auto; padding:28px 16px 48px; }
+  .hero { display:flex; gap:18px; align-items:center; }
+  .hero img { width:96px; height:128px; object-fit:cover; border-radius:10px; flex:none; }
+  h1 { margin:0; font-size:1.6rem; letter-spacing:-0.3px; }
+  .en { color:var(--muted); font-size:.95rem; }
+  .role { color:var(--accent); font-weight:700; margin-top:6px; }
+  .buttons { display:grid; gap:10px; margin:24px 0; }
+  .btn { display:block; text-align:center; padding:14px; border-radius:10px; font-weight:700; text-decoration:none;
+         border:1px solid var(--line); background:var(--card); color:var(--ink); }
+  .btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  @media (prefers-color-scheme: dark) { .btn.primary { color:#0b1220; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-top:14px; }
+  h2 { font-size:1rem; margin:0 0 8px; color:var(--accent); }
+  ul { margin:0; padding-left:18px; }
+  li { margin:3px 0; }
+  .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .tags span { background:var(--tint); color:var(--accent); border-radius:6px; padding:2px 8px; font-size:.85rem; }
+  .row { display:flex; flex-wrap:wrap; justify-content:space-between; gap:0 12px; margin:2px 0; }
+  .hero > div, .card { min-width:0; overflow-wrap:anywhere; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; margin-top:28px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="photo.jpg" alt="Samat kyzy Ainazik">
+    <div>
+      <h1>아이나지크</h1>
+      <div class="en">Samat kyzy Ainazik</div>
+      <div class="role">MLOps 엔지니어<br>AI 모델 서빙 · Kubernetes · AWS</div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a class="btn primary" href="resume.pdf">📄 이력서 PDF 보기 (Resume)</a>
+    <a class="btn" href="https://github.com/AinazikSamatKyzy/rag-study-assistant">💻 포트폴리오 프로젝트 (GitHub)</a>
+    <a class="btn" href="mailto:samatkyzyainazik@gmail.com">✉️ samatkyzyainazik@gmail.com</a>
+  </div>
+
+  <div class="card">
+    <h2>대표 프로젝트 · RAG 기반 AI 학습 도우미</h2>
+    <ul>
+      <li>PDF에 질문하면 출처 페이지와 함께 답하는 로컬 LLM 서비스</li>
+      <li>근거 없는 질문은 답변 거부 → 환각 억제</li>
+      <li>Docker 이미지화 · Kubernetes 배포 (Deployment, HPA, Probe)</li>
+      <li>GitHub Actions CI: 검색 정확도 85% 미만이면 배포 차단</li>
+      <li>Top-3 검색 정확도 100% (16/16)</li>
+    </ul>
+    <div class="tags"><span>Python</span><span>LangChain</span><span>Ollama</span><span>Docker</span><span>Kubernetes</span><span>GitHub Actions</span></div>
+  </div>
+
+  <div class="card">
+    <h2>자격증</h2>
+    <div class="row"><span>AWS Solutions Architect – Associate</span><span class="muted">2026.07</span></div>
+    <div class="row"><span>CKA (Kubernetes Administrator)</span><span class="muted">2026.03</span></div>
+    <div class="row"><span>TOPIK II 4급</span><span class="muted">2025.10</span></div>
+  </div>
+
+  <div class="card">
+    <h2>학력 · 경력</h2>
+    <div class="row"><span>우송대학교 AI·빅데이터학과 (학점 4.3/4.5)</span><span class="muted">2027.08 졸업예정</span></div>
+    <div class="row"><span>키르기스스탄 재무부 백엔드 개발 인턴</span><span class="muted">2022.12–2023.02</span></div>
+    <div class="row"><span>AI·SW 창의융합경진대회 장려상</span><span class="muted">2026.07</span></div>
+  </div>
+
+  <div class="card">
+    <h2>언어</h2>
+    한국어 (업무 가능) · English (business) · Русский (native) · Кыргызча (native)
+  </div>
+
+  <footer>정규직 · 인턴 지원 가능 · 서울 / 경기 / 대전</footer>
+</main>
+</body>
+</html>
